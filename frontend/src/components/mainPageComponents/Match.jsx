@@ -5,7 +5,7 @@ function Match({ id, name, age, photo, bio }) {
 
                 <img
                     className="w-40 h-40 object-cover object-top border-2 border-(--secondary-color) rounded-2xl shadow-sm"
-                    src={`http://localhost:8000/${photo}`}
+                    src={`https://date-me-tbh2.onrender.com/${photo}`}
                     alt={name}
                 />
 
