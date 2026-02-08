@@ -28,7 +28,7 @@ function ChatWindow({ chatId }) {
         fetchMessages();
         const token = localStorage.getItem("token")
         const ws = new WebSocket(
-            `ws://localhost:8000/ws/chat/${chatId}?token=${token}`
+            `ws://date-me-tbh2.onrender.com/ws/chat/${chatId}?token=${token}`
         )
 
         ws.onmessage = (event) => {
