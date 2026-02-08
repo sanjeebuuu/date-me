@@ -5,7 +5,7 @@ function ProfileCard({user, onAction}){
 
                 <div className="relative h-136 overflow-hidden">
                     <img
-                        src={`http://localhost:8000/${user.photo}`}
+                        src={`https://date-me-tbh2.onrender.com/${user.photo}`}
                         alt={user.name}
                         className="h-full w-full object-cover"
                     />
