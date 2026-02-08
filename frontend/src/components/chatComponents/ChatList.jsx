@@ -35,7 +35,7 @@ function ChatList({onSelect}) {
                     >
                         {/* Avatar */}
                         <div className="w-12 h-12 rounded-full bg-(primary-color) flex items-center justify-center font-bold text-(secondary-color) mr-3 shrink-0 overflow-hidden">
-                            <img className=" object-cover w-full h-full" src={`http://localhost:8000/${chat.other_user.photo}`} alt="" />
+                            <img className=" object-cover w-full h-full" src={`https://date-me-tbh2.onrender.com/${chat.other_user.photo}`} alt="" />
 
                         </div>
 
